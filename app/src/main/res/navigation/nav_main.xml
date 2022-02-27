@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/listSuperHeroesFragment">
+
+    <fragment
+        android:id="@+id/listSuperHeroesFragment"
+        android:name="com.coppel.exampedro.listOfHeroes.listSuperHeroesFragment"
+        android:label="fragment_list_super_heroes"
+        tools:layout="@layout/fragment_list_super_heroes" >
+        <action
+            android:id="@+id/action_listSuperHeroesFragment_to_heroDetailFragment"
+            app:destination="@id/heroDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/heroDetailFragment"
+        android:name="com.coppel.exampedro.detailHeroe.HeroDetailFragment"
+        android:label="fragment_hero_detail"
+        tools:layout="@layout/fragment_hero_detail" >
+        <argument
+            android:name="hero"
+            app:argType="Hero" />
+    </fragment>
+</navigation>

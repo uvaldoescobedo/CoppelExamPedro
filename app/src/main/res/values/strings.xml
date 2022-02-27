@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">CoppelExamPedrp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comics_tittle">Comics</string>
+    <string name="events_tittle">Events</string>
+    <string name="series_tittle">Series</string>
+    <string name="stories_tittle">Stories</string>
+    <string name="by_pedro_escobedo">By Pedro Escobedo</string>
+    <string name="tittle_the_marvel_s_super_hero">The Marvel´s Super Hero</string>
+</resources>
